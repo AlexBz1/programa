@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
- //editandoestamadre
- ya valimos
+ //hijodeputajafeth
 
 class Nodo
 {
