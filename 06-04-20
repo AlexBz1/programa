@@ -1,6 +1,6 @@
 #include <iostream>
 using names space std;
-//te aparece este texto
+
 class Nodo
 {
 private:
@@ -59,10 +59,16 @@ void LDE::InsertarI(int x)
     {   
         if(Inicio->Obtienesig()==NULL)
         {
-        Nodo *helpx3=new Nodo(x);
-        helpx3->Asignasig(Inicio);
-        Inicio->Asignaant(helpx3);
-        Inicio=helpx3;
+        Nodo *temp;
+        temp>new Nodo(x);
+        Inicio=temp;
+        Inicio->Asignasig(Fin);
+        }else
+        {
+        Nodo *helpx4=new Nodo(x);
+        helpx4->Asinasig(Inicio);
+        Inicio=helpx4;
+        }
     }
 }
 void LDE::InsertarF(int x)
