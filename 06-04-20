@@ -6,7 +6,7 @@ class Nodo
 private:
     int dato;
     Nodo *sig;
-    Nodo *antf
+    o;do *ant
 public:
     Nodo()
     {    dato=0;
