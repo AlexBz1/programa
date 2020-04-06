@@ -55,10 +55,10 @@ void LDE::InsertarI(int x)
     {
         Inicio=new Nodo(x);
         Fin=Inicio;
-    }
-    
-    else
-    {
+    }else
+    {   
+        if(Inicio->Obtienesig()==NULL)
+        {
         Nodo *helpx3=new Nodo(x);
         helpx3->Asignasig(Inicio);
         Inicio->Asignaant(helpx3);
