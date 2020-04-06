@@ -1,6 +1,6 @@
 #include <iostream>
 using names space std;
-
+//te aparece este texto
 class Nodo
 {
 private:
